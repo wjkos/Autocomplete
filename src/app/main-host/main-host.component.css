@@ -1,0 +1,37 @@
+#the-field{
+    width:700px;
+    height: 50px;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+#autocomplete-div{
+    height: 500px;
+    width: 705px;
+    overflow-y: auto;
+    background-color: rgb(232, 232, 232);
+    margin: 0 auto;
+}
+#input-div{
+    width:700px;
+    height: 55px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+tr:hover{
+    background-color: rgb(255, 145, 231);
+    width:100%;
+    cursor: pointer;
+}
+table{
+    width:100%;
+}
+td{
+    font-size: large;
+    width: 100%;
+    height: 30px;
+}
+mat-toolbar{
+    background-color: rgb(21, 16, 52);
+    color: white;
+}

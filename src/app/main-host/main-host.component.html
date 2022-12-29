@@ -1,0 +1,13 @@
+<mat-toolbar>
+    <span>Autocomplete</span>
+</mat-toolbar>
+<div id="input-div">
+    <input id="the-field" type="text" [value]="this.chosenValue" (input)="inputFieldChanged($event)"/>
+</div>
+<div *ngIf="this.chosenValue!=='' && this.showAutoComplete" id="autocomplete-div">
+    <table>
+        <tr *ngFor="let value of this.suggestedValues" (click)="this.valueChosen(value)">
+            <td>{{value}}</td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,12 @@
+
+
+#footer {
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(175, 175, 175);
+    width: 100%;
+}
